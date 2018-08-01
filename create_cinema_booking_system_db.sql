@@ -79,7 +79,7 @@ DESCRIBE screenings;
 
 
 -- --------------------------------------------------
-
+-- DROP TABLE seats;
 CREATE TABLE seats 
 (
 	id INT PRIMARY KEY AUTO_INCREMENT,
@@ -99,7 +99,7 @@ DESCRIBE seats;
 
 -- --------------------------------------------------
 
-
+-- DROP TABLE bookings;
 
 CREATE TABLE bookings 
 (
@@ -120,7 +120,7 @@ DESCRIBE bookings;
 
 
 -- --------------------------------------------------
-
+-- DROP TABLE reserved_seat;
 
 CREATE TABLE reserved_seat 
 (
@@ -135,7 +135,7 @@ SHOW TABLES;
 SELECT * FROM reserved_seat;
 DESCRIBE reserved_seat;
 
-
+SELECT * FROM reserved_seat;
 
 
 
